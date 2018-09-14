@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang=”en”>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Name of your awesome camera app -->
+<title>Camera App</title> 
+<!-- Link to your main style sheet-->
+<link rel="stylesheet" href="../cameraapp/style.css"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+<!-- Camera -->
+<div class="backbar">
+    <a href="niv3_forside.html"><i class="fas fa-arrow-left"></i></a>
+</div>
+
+<main id="camera">
+   
+     <!-- Camera sensor -->
+    <canvas id="camera--sensor"></canvas>
+    
+    <!-- Camera view -->
+    <video id="camera--view" autoplay playsinline></video>
+    
+    <!-- Camera output -->
+    <img src="//:0" alt="" id="camera--output">
+    
+     <!-- Camera trigger -->
+    <button id="camera--trigger"><i class="fas fa-camera"></i></button>
+    
+</main>
+<!-- Reference to your JavaScript file -->
+<script src="../cameraapp/cameraapp.js"></script> 
+</body>
+</html>

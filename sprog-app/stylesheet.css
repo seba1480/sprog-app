@@ -1,0 +1,566 @@
+body {
+    font-family: "Avenir next", sans-serif;
+    color: #7E7A7A;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #7E7A7A;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+span {
+    margin-left: 1rem;
+}
+
+.main_center {
+    align-content: center;
+}
+
+.main_lektioner {
+    background-color: #EEEDED;
+
+}
+
+.main_niv1{
+    background: #D4E9BD;
+}
+
+.main_niv2{
+    background: #FCFACA;
+}
+
+.main_niv3{
+    background: #FF8383;
+}
+
+.row {
+    text-align: center;
+}
+
+.row_margin {
+    text-align: center;
+    margin: 1rem;
+}
+
+.row_bigtext p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.row45 {
+    transition: 0.3s;
+    width: 45%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 0.1rem;
+}
+
+.row_inbox {
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    border-bottom: 2px #7E7A7A solid;
+}
+
+/* profilside -----------------*/
+
+.profil_nav {
+    background: #BAA9CD;
+}
+
+.row_profil {
+    background: #BAA9CD;
+   padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+.row_trophy {
+    background: #D9D0E3;
+    margin: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2rem;
+}
+
+.row_trophy h1{
+     margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+
+.row_contacts {
+    background: #EDE8F1;
+     padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2rem;
+}
+
+.row_contacts h1 {
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+/* profilside -----------------*/
+
+.container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center }
+
+.korrekt {
+    color: #438923;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 100%;
+  margin: auto;
+  padding: 0 1rem;
+  margin-top: 0.5rem;
+}
+
+.profpic {
+    border-radius: 1rem;
+    width: 25%;
+    margin: 1rem;
+}
+
+.img_round {
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.icon_lection {
+    text-align: center;
+    font-size: 7rem;
+}
+
+.backbar {
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.backbar a {
+    font-size: 1.5rem;
+    color: black;
+    padding-left: 0.5rem;
+}
+
+.backbar_blank {
+width: 20%;
+    margin: 0;
+}
+
+.backbar_blank a {
+    font-size: 1.5rem;
+    color: black;
+    padding-left: 0.5rem;
+}
+
+.chatbar {
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.chatbar i {
+    font-size: 2rem;
+    float: right;
+    padding: 0.5rem;
+}
+
+/* navbar --------------*/
+.navbar {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+width: 20%;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar a.active {
+  background-color: #7E7A7A;
+  color: white;
+}
+
+.niv1 {
+    background: #D4E9BD;
+}
+
+.niv2 {
+    background: #FCFACA;
+}
+
+.niv3 {
+    background: #FF8383;
+}
+
+/* navbar end --------------*/
+
+/* sidebar --------------*/
+
+.sidebar {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #7E7A7A;
+    display: block;
+}
+
+
+.sidebar .closebtn {
+    color: #333;
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidebar h3{
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.niv1_side {
+    background-color:#D4E9BD;
+padding: 0.5rem;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.niv2_side {
+    background-color:#FCFACA;
+padding: 0.5rem;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.niv3_side {
+    background-color: #FF8383;
+padding: 0.5rem;
+    margin: 0.1rem;
+    border-radius: 0.5rem;
+}
+
+
+/* sidebarbar end --------------*/
+
+/* button ---------------------*/
+
+.btn {
+  background-color: #f2f2f2;
+  color: #7E7A7A;
+  padding: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn_green {
+  background-color: #D4E9BD;
+  color: #7E7A7A;
+  padding: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.btn_yellow {
+  background-color: #FCFACA;
+  color: #7E7A7A;
+  padding: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.btn_red {
+  background-color: #FF8383;
+  color: #7E7A7A;
+  padding: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.btn_next {
+  background-color: #438923;
+  color: #ffffff;
+  padding: 1rem;
+    margin: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+    border-radius: 0.5rem;
+
+
+}
+
+.button {
+    margin-top: 1rem;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+}
+
+/* button end ---------------------*/
+
+/* login ---------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 2rem;
+  padding: 2rem 0 2.5rem 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 1rem;
+  border: 1px #7E7A7A solid;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+/* add appropriate colors to fb button */
+.fb {
+  background-color: #3B5998;
+  color: white;
+  text-align: center;
+}
+
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.btn_submit {
+  background-color: #4CAF50;
+    color: #f2f2f2;
+}
+
+
+
+/* login end ---------------------- */
+    
+/* Chat ----------------------------*/
+
+    /* Add styles to the form container */
+.form-container {
+  max-width: 100%;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+margin-bottom: 0.1rem;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 5rem;
+}
+
+
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.8;
+}
+
+.chat_container_left {
+    background-color: #f1f1f1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 3rem;
+}
+    
+.chat_container_right {
+    background-color: #f1f1f1;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-right: 3rem;
+    margin-left: 0.5rem;
+}
+
+.darker {
+    background-color: #ddd;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+
+/* chat end -----------------------*/
+    
+/* card ---------------------*/
+
+.card_text {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2rem 0 2rem 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    width: 90%;
+    background: #ffffff;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 90%;
+    background: #ffffff;
+}
+
+
+.card h1 {
+    text-align: center;
+}
+
+.card45 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 45%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 0.1rem;
+    background: #ffffff;
+}
+
+.card45 h1 {
+    text-align: center;
+}
+
+    /* card end ---------------------*/
+
+    /*chip ---------------------*/
+    .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+/* chip end ------------------*/
+
+/* galleri ---------------------*/
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 45%;
+}
+
+
+div.gallery img {
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* galleri end ----------------*/
+
+
+/* Media queries */
+
+@media (min-width: 320px) and (max-width: 480px) {
+ 
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
